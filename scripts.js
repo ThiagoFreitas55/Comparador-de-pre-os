@@ -43,8 +43,8 @@ function updatePrinceChart(products) {
             datasets: [{
                 label: "Preço (R$)",
                 data: products.map(product => product.price),
-                backgroundColor: "rgba(77,04,13,0.6)",
-                borderColor: "rgba(66,10,99,1)",
+                backgroundColor:"linear-gradient(135deg,rgb(194, 0, 6),rgb(88, 21, 2))",
+                borderColor: "rgba(77,04,13,0.6)",
                 borderWidth: 1
             }]
         },
