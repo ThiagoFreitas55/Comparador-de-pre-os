@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <title>Dev Comparador</title>
 </head>
+
 <body>
     <main class="container">
+
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'></div>
         <h1>Dev Compara Preços</h1>
-        <form class="search-form">
-            <input placeholder="Digite o nome do Produto" class="product-input">
-            <button type="submit">Buscar</button>
-        </form>
-        <div class="product-list"></div>
-        <canvas class="price-chart"></canvas>
+            <form class="search-form">
+                <input placeholder="Digite o nome do Produto" class="product-input">
+                <button type="submit">Buscar</button>
+            </form>
+            <div class="product-list"></div>
+            <canvas class="price-chart"></canvas>
+        
+
 
     </main>
+
 </body>
 <script src="./scripts.js"></script>
+
 </html>
